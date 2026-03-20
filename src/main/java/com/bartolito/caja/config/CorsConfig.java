@@ -1,4 +1,4 @@
-package com.bartolito.compras.config;
+package com.bartolito.caja.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

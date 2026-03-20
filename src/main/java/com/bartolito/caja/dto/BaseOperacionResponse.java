@@ -1,4 +1,4 @@
-package com.bartolito.compras.dto;
+package com.bartolito.caja.dto;
 
 import java.io.Serializable;
 

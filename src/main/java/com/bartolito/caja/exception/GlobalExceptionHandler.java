@@ -1,4 +1,4 @@
-package com.bartolito.compras.exception;
+package com.bartolito.caja.exception;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;

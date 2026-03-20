@@ -1,4 +1,4 @@
-package com.bartolito.compras.config;
+package com.bartolito.caja.config;
 
 
 import javax.sql.DataSource;

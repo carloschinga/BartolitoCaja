@@ -1,4 +1,4 @@
-package com.bartolito.compras.util;
+package com.bartolito.caja.util;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
