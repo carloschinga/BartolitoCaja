@@ -35,5 +35,18 @@ public class CajaRestController {
 
 		return ResponseEntity.ok(response);
 	}
+	
+	@GetMapping("/listarProductosDescuadre")
+	public ResponseEntity<Map<String, Object>> obtenerProductosVentasDescuadre(
+			@RequestParam("invnum") Integer invnum) {
+
+		List<Map<String, Object>> productos = cajaService.obtenerProductosVentasDescuadre(invnum);
+
+		Map<String, Object> response = new LinkedHashMap<>();
+		response.put("resultado", "ok");
+		response.put("productos", productos);
+
+		return ResponseEntity.ok(response);
+	}
 
 }
