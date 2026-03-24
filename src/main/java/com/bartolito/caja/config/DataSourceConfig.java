@@ -38,24 +38,6 @@ public class DataSourceConfig {
         return new JdbcTemplate(ds);
     }
 
-    // =================== BD SIGOLDB (Secundaria) ===================
-    @Bean
-    @ConfigurationProperties("spring.datasource.bi")
-    public DataSourceProperties sigoldbDataSourceProperties() {
-        return new DataSourceProperties();
-    }
-
-    @Bean(name = "biDataSource")
-    public DataSource biDataSource() {
-        return sigoldbDataSourceProperties().initializeDataSourceBuilder().build();
-    }
-
-    @Bean(name = "biJdbcTemplate")
-    public JdbcTemplate biDataSource(@Qualifier("biDataSource") DataSource ds) {
-        return new JdbcTemplate(ds);
-    }
-
-
     // 🔹 Mapper global
     @Bean
     public ModelMapper modelMapper() {

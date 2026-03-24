@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bartolito.caja.service.CajaService;
 
 @RestController
-@RequestMapping("/api/caja")
+@RequestMapping("/api")
 public class CajaRestController {
 
 	@Autowired
