@@ -20,4 +20,9 @@ public class CajaRepository {
 		String sql = "EXEC sp_bart_ventas_descuadre_caja_x_farmacia ?, ?";
 		return jdbcLolfarTemplate.queryForList(sql, siscod, fecha);
 	}
+	
+	public List<Map<String, Object>> obtenerProductosVentasDescuadre(Integer invnum) {
+		String sql = "EXEC sp_bart_ventas_descuadre_caja_productos ?";
+		return jdbcLolfarTemplate.queryForList(sql, invnum);
+	}
 }

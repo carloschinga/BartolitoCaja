@@ -19,4 +19,8 @@ public class CajaService {
 		return cajaRepository.obtenerVentasDescuadreCajaXFarmacia(siscod, fecha);
 	}
 
+	public List<Map<String, Object>> obtenerProductosVentasDescuadre(Integer invnum) {
+		return cajaRepository.obtenerProductosVentasDescuadre(invnum);
+	}
+	
 }
