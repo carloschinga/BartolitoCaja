@@ -18,6 +18,7 @@ com\bartolito\caja\dto\Constantes$EstadoUsuario.class
 com\bartolito\caja\util\JwtComercialFilter.class
 com\bartolito\caja\CajaApplication.class
 com\bartolito\caja\dto\Constantes$ContentType.class
+com\bartolito\caja\controller\NotaCreditoRestController.class
 com\bartolito\caja\dto\Constantes$Extension.class
 com\bartolito\caja\dto\Constantes$TipoInspeccion.class
 com\bartolito\caja\dto\Constantes$TipoDocumento.class
@@ -26,4 +27,6 @@ com\bartolito\caja\controller\CajaRestController.class
 com\bartolito\caja\exception\GlobalExceptionHandler.class
 com\bartolito\caja\dto\Constantes$Rol.class
 com\bartolito\caja\dto\Constantes$TipoCapacitacion.class
+com\bartolito\caja\repository\NotaCreditoRepository.class
+com\bartolito\caja\service\NotaCreditoService.class
 com\bartolito\caja\dto\Constantes$ValoresConstantes.class
