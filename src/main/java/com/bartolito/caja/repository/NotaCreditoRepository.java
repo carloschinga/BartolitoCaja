@@ -17,12 +17,12 @@ public class NotaCreditoRepository {
 	private JdbcTemplate jdbcLolfarTemplate;
 
 	public List<Map<String, Object>> obtenerNotasCreditoDescuadre(Integer siscod, LocalDate fecha) {
-		String sql = "EXEC sp_bart_ventas_notas_credito productos ?, ?";
+		String sql = "EXEC sp_bart_ventas_notas_credito_descuadre ?, ?";
 		return jdbcLolfarTemplate.queryForList(sql, siscod, fecha);
 	}
 	
 	public List<Map<String, Object>> obtenerProductosNotaCreditoDescuadre(Integer nconum) {
-		String sql = "EXEC sp_bart_ventas_notas_credito productos ?";
+		String sql = "EXEC sp_bart_ventas_notas_credito_productos ?";
 		return jdbcLolfarTemplate.queryForList(sql, nconum);
 	}
 }
