@@ -2,6 +2,7 @@ com\bartolito\caja\dto\Constantes$Catalogo.class
 com\bartolito\caja\repository\CajaRepository.class
 com\bartolito\caja\util\JwtUtil.class
 com\bartolito\caja\config\DataSourceConfig.class
+com\bartolito\caja\service\ReporteService.class
 com\bartolito\caja\dto\Constantes$Folder.class
 com\bartolito\caja\config\CorsConfig.class
 com\bartolito\caja\util\SecurityConfig.class
@@ -11,6 +12,7 @@ com\bartolito\caja\dto\Constantes$Email.class
 com\bartolito\caja\dto\Constantes$ConfiguracionMarcaAgua.class
 com\bartolito\caja\dto\Constantes$EstadoCapacitacion.class
 com\bartolito\caja\dto\Constantes$Habilitado.class
+com\bartolito\caja\controller\ReporteRestController.class
 com\bartolito\caja\dto\BaseOperacionResponse.class
 com\bartolito\caja\dto\Constantes$PathUrl.class
 com\bartolito\caja\dto\Constantes.class
@@ -23,6 +25,7 @@ com\bartolito\caja\dto\Constantes$Extension.class
 com\bartolito\caja\dto\Constantes$TipoInspeccion.class
 com\bartolito\caja\dto\Constantes$TipoDocumento.class
 com\bartolito\caja\service\CajaService.class
+com\bartolito\caja\repository\ReporteRepository.class
 com\bartolito\caja\controller\CajaRestController.class
 com\bartolito\caja\exception\GlobalExceptionHandler.class
 com\bartolito\caja\dto\Constantes$Rol.class
