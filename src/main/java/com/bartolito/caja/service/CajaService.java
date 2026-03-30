@@ -23,4 +23,8 @@ public class CajaService {
 		return cajaRepository.obtenerProductosVentasDescuadre(invnum);
 	}
 	
+	public List<Map<String, Object>> obtenerErroresVentasDescuadre(Integer invnum) {
+		return cajaRepository.obtenerErroresVentasDescuadre(invnum);
+	}
+	
 }
