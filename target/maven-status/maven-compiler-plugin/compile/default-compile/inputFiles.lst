@@ -1,5 +1,6 @@
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\dto\BaseOperacionResponse.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\service\CajaService.java
+C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\controller\ReporteRestController.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\util\JwtComercialFilter.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\repository\CajaRepository.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\config\CorsConfig.java
@@ -9,7 +10,9 @@ C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\ca
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\service\NotaCreditoService.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\util\SecurityConfig.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\util\JwtUtil.java
+C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\repository\ReporteRepository.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\config\DataSourceConfig.java
+C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\service\ReporteService.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\CajaApplication.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\controller\CajaRestController.java
 C:\Users\Carlos\Documents\Bartolito\BartolitoCaja\src\main\java\com\bartolito\caja\controller\NotaCreditoRestController.java
