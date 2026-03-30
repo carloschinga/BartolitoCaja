@@ -48,5 +48,19 @@ public class CajaRestController {
 
 		return ResponseEntity.ok(response);
 	}
+	
+	
+	@GetMapping("/listarErroresDescuadre")
+	public ResponseEntity<Map<String, Object>> obtenerErroresVentasDescuadre(
+			@RequestParam("invnum") Integer invnum) {
+
+		List<Map<String, Object>> errores = cajaService.obtenerErroresVentasDescuadre(invnum);
+
+		Map<String, Object> response = new LinkedHashMap<>();
+		response.put("resultado", "ok");
+		response.put("errores", errores);
+
+		return ResponseEntity.ok(response);
+	}
 
 }
