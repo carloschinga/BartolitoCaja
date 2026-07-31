@@ -63,4 +63,31 @@ public class CajaRestController {
 		return ResponseEntity.ok(response);
 	}
 
+    @GetMapping("/nota-credito")
+    public ResponseEntity<Map<String, Object>> obtenerNotaCreditoPorId(
+            @RequestParam("nconnum") Integer nconnum) {
+
+        List<Map<String, Object>> data = cajaService.obtenerNotaCreditoPorId(nconnum);
+
+        Map<String, Object> response = new LinkedHashMap<>();
+        response.put("resultado", "ok");
+        response.put("notaCredito", data);
+
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/ventas-medios-pago")
+    public ResponseEntity<Map<String, Object>> obtenerVentasPorMedioPago(
+            @RequestParam("fecha") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fecha,
+            @RequestParam("siscod") Integer sistema) {
+
+        List<Map<String, Object>> data = cajaService.obtenerVentasPorMedioPago(fecha, sistema);
+
+        Map<String, Object> response = new LinkedHashMap<>();
+        response.put("resultado", "ok");
+        response.put("ventas", data);
+
+        return ResponseEntity.ok(response);
+    }
+
 }

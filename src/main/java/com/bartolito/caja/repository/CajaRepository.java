@@ -30,4 +30,14 @@ public class CajaRepository {
 		String sql = "EXEC sp_bart_ventas_errores_venta_detalle ?";
 		return jdbcLolfarTemplate.queryForList(sql, invnum);
 	}
+
+    public List<Map<String, Object>> obtenerNotaCreditoPorId(Integer nconnum) {
+        String sql = "EXEC sp_bart_ventas_comprobante_x_notas_credito_id ?";
+        return jdbcLolfarTemplate.queryForList(sql, nconnum);
+    }
+
+    public List<Map<String, Object>> obtenerVentasPorMedioPago(LocalDate fecha, Integer sistema) {
+        String sql = "EXEC sp_bart_ventas_ventasxmediospago ?, ?";
+        return jdbcLolfarTemplate.queryForList(sql, fecha, sistema);
+    }
 }

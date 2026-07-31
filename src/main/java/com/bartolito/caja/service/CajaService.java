@@ -26,5 +26,13 @@ public class CajaService {
 	public List<Map<String, Object>> obtenerErroresVentasDescuadre(Integer invnum) {
 		return cajaRepository.obtenerErroresVentasDescuadre(invnum);
 	}
+
+    public List<Map<String, Object>> obtenerNotaCreditoPorId(Integer nconnum) {
+        return cajaRepository.obtenerNotaCreditoPorId(nconnum);
+    }
+
+    public List<Map<String, Object>> obtenerVentasPorMedioPago(LocalDate fecha, Integer sistema) {
+        return cajaRepository.obtenerVentasPorMedioPago(fecha, sistema);
+    }
 	
 }
